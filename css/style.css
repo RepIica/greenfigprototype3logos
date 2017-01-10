@@ -1,0 +1,212 @@
+body{
+	margin:0;
+}
+/*------------------Nav------------------*/
+.Logo {
+  background-image: url("../images/logo2.png");
+  width: 300px;
+  height: 120px;
+  background-size: cover;
+  background-position: center center;
+  margin: auto;
+  margin-top: 65px;
+}/*
+.Logo {
+  background-image: url("../images/logo4.png");
+  width: 260px;
+  height: 180px;
+  margin: auto;
+  margin-top: 25px;
+}*/
+/*
+.Logo {
+  background-image: url("../images/logo1.png");
+  width: 300px;
+  height: 100px;
+  margin: auto;
+  margin-top: 65px;
+}*/
+.nav_divide {
+  background-color: rgb(104, 152, 127);
+  opacity: 0.529;
+  width: 24px;
+  height: 2px;
+  margin:auto;
+}
+.full{opacity: 1}
+.m15{margin-left: 15px;}
+.navbar{background: none; border: none;}
+#m100{
+  height: 100px;
+}
+.navitem {
+  font-size: 23px;
+  font-family: "Lato";
+  color: rgb(61, 61, 61)!important;
+  text-transform: uppercase;
+  width: 100%;
+  height: 48px;  
+  text-align: center;
+  position: relative;  
+}
+.navbar-header{
+  margin-top: 20px;
+}
+.in-nav-item{
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.navlink, .navlink:link, .navlink:visited, .navlink:active{
+  color: inherit;
+}
+.navlink:hover{
+  color: #68987f;
+}
+.absol{position: absolute;}
+.nopad{padding: 0;}
+.home{margin-top: 45px;}
+.instagram {
+  background-image: url("../images/glyph-logo_May2016.png");
+  width: 24px;
+  height: 24px;
+  left: 92%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.facebook {
+  background-image: url("../layers-export/facebook-solid.png");
+  width: 24px;
+  height: 23px;
+  left: 85%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.lower_menu_bar {
+  background-color: rgba(104, 152, 127, 0.09);
+  height: 71px;
+  margin-top: -71px;
+  position: relative; 
+}
+#mobilebar{
+  background-color: rgba(104, 152, 127, 0.09);
+  width: 100%;
+  height: 71px;
+}
+.info {
+  font-size: 15px;
+  font-family: "Lato";
+  color: rgb(35, 35, 35);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.info > span:first-child{
+  padding-left: 100px;
+}
+.info > span:nth-child(2){
+  padding-left: 30px;
+}
+.col-sm-6 > .info {
+  padding-left: 0px;
+  font-size: 13px;
+}
+/*---------------------end nav------------------*/
+/*--------------------carousel------------------*/
+.owl-carousel {
+  position: relative;
+  height: 640px;
+}
+.owl-carousel div{
+  height: 100%;
+}
+#slide1{
+  background-image: url("../layers-export/greenfig-mockup-3-export_0002s_0000_pexels-photo-67514.png");
+}
+#slide2{
+  background-image: url("../images/coffee-macaron.jpg");
+}
+#slide3{
+  background-image: url("../images/specialsalad.png");
+}
+.owl-carousel .owl-slide {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+body, html {
+  height: 100%;
+}
+/*--------------------end carousel---------------*/
+.section2{
+  background: #1b1b1b;
+  background-image: url("../layers-export/greenfig-mockup-3-export_0003s_0004_streudle.png");
+  background-size: cover;
+  background-position: center center;
+  background-color: rgb(67, 67, 67);
+  padding-bottom: 50px;
+}
+#savor{
+  font-size: 43px;
+  font-family: "Handlee";
+  color: rgb(255, 255, 255);
+  text-align: center;
+  line-height: 1.4 ;
+  margin-top: 50px;
+}
+#savor span{
+  color: #7fb79a;
+}
+.morefig{
+  font-size: 15px;
+  font-family: "Lato";
+  color: rgb(158, 220, 188);
+  line-height: 1.3;
+  padding-top: 30px;
+}
+#left{text-align: right;}
+.specials{
+  font-size: 30px;
+  font-family: "Roboto-Thin";
+  letter-spacing: 6px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  text-align: center;
+  padding: 30px 0px;
+}
+#map {
+  height: 400px;
+  width: 100%;
+}
+/*Fonts*/
+@font-face {
+    font-family: Assassin$;
+    src: url(../fonts/assassin$.ttf);
+}
+@font-face {
+    font-family: Aref Ruqaa;
+    src: url(../fonts/arefruqaa-regular.ttf);
+}
+@font-face {
+    font-family: Lato;
+    src: url(../fonts/Lato-Light.ttf);
+}
+@font-face{
+  font-family: Lato-Light;
+  src: url(../fonts/Lato-Hairline.ttf);
+}
+@font-face{
+  font-family: Handlee;
+  src: url(../fonts/Handlee-Regular.ttf);
+}
+@font-face{
+  font-family: Roboto-Thin;
+  src: url(../fonts/Roboto-Thin.ttf);
+}
+
+
+
+
